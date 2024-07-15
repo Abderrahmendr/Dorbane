@@ -157,7 +157,7 @@ alt="My Image" />
               <span className="after:w-1 after:h-[200px] relative after:absolute after:-mt-2 after:bg-teal-600 after:left-6"></span>
 
                <h1 className='uppercase text-xl mb-4    ml-16'>typescript | Nextjs  </h1>
-               <p className='mt-10 ml-12  '>Through many videos on the YouTube platform, I got to know Nextjs &  Typescript a bit, which allowed me to build small apps. It didn't look particularly nice, but it worked. However, I'm always ready to learn something new to develop apps because we use them every day, and I am fascinated by the interaction between the app and the user.
+               <p className='mt-10 ml-12  '>Through many videos on the YouTube platform, I got to know Nextjs and  Typescript a bit, which allowed me to build small apps. It didn't look particularly nice, but it worked. However, I'm always ready to learn something new to develop apps because we use them every day, and I am fascinated by the interaction between the app and the user.
 
 </p>
 
