@@ -30,7 +30,7 @@ function page() {
 <div className=' w-2/5 h-50 shadow-md shadow-white border-white border-2 ml-8 mt-56 hover:scale-110 sm:w-full sm:-ml-4 sm:h-50 '>
 <a href="https://ufp-de.vercel.app/" target='_blank'>
 <Image
-src={'/images/UFP-DE.png'}
+src={'/images/UFP-DE.PNG'}
 width={700}
 height={100}
 alt=''
@@ -49,7 +49,7 @@ className=' '
 
       <a href="https://weather-news-seven.vercel.app/" target="_blank">
 <Image
-src={'/images/weather-news.png' }
+src={'/images/weather-news.PNG' }
 width={700}
 height={100}
 alt=''
