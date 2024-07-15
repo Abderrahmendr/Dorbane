@@ -1,7 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
-import React from 'react'
-import Link from "next/link"
-import Image from 'next/image'
+ import React from 'react'
+ import Image from 'next/image'
 import Navbar from "../navbar/navbar"
 import { FaGraduationCap } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
