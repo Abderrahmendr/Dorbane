@@ -124,7 +124,7 @@ alt="My Image" />
               <FaGraduationCap size={50} className='bg-teal-600 rounded-full p-2'/>
               <span className="after:w-1 after:h-[200px] relative after:absolute after:-mt-2 after:bg-teal-600 after:left-6"></span>
 
-               <h1 className='uppercase text-xl mb-4    ml-16'>Master’s Degree</h1>
+               <h1 className='uppercase text-xl mb-4    ml-16'>Master Degree</h1>
                <p className='mt-10 ml-12  '>German Language and Literature | 
  University of Algiers 2 - Abou EL Kacem Saâdallah -</p>
 
@@ -145,7 +145,7 @@ alt="My Image" />
               <FaGraduationCap size={50} className='bg-teal-600 rounded-full p-2'/>
               <span className="after:w-1 after:h-[200px] relative after:absolute after:-mt-2 after:bg-teal-600 after:left-6"></span>
 
-               <h1 className='uppercase text-xl mb-4    ml-16'>Bachelor’s Degree</h1>
+               <h1 className='uppercase text-xl mb-4    ml-16'>Bachelor Degree</h1>
                <p className='mt-10 ml-12  '>German Language and Literature |
  University of Algiers 2 - Abou EL Kacem Saâdallah -</p>
 
