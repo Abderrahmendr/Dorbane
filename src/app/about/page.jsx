@@ -245,7 +245,7 @@ alt="My Image" />
                                   {/** JAVASCRIPT */}
 
                 <div className='w-2/5 h-40 border-2 cursor-pointer  border-white shadow-md shadow-white hover:opacity-60 hover:scale-105 sm:w-full  md:w-2/3'>
-                <img
+                <Image
 src={'/images/js .png'}
 layout="responsive"
                 width={700}
