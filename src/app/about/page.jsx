@@ -61,7 +61,7 @@ alt="My Image" />
                 {/** TABLE */}
                 <div className=' relative '>
                     
-                    <div className='expr absolute sm:left-0 sm:mt-56 -right-96  h-60 w-64  -mt-48 border-white  border-2 bg-slate-700 shadow-lg shadow-white a'>
+                    <div className='expr absolute sm:left-0 sm:mt-56 md:mr-16 -right-96  h-60 w-64  -mt-48 border-white  border-2 bg-slate-700 shadow-lg shadow-white a'>
                     <h1 className='relative     	 top-10  left-16  font-bold text-7xl'>2<span className='text-5xl text-teal-700  -mt-4'>+</span></h1>
                     <p className='relative  flex items-center justify-center text-ellipsis ml-4 uppercase top-10  l  mt-8 font-bold text-xl'> years in coding</p>
   
@@ -89,7 +89,7 @@ alt="My Image" />
                 <div>
                   
               <h2  className='opacity-60 right-8  '>Degree:</h2>
-              <p className=' left-0 absolute'>Master (german Language)</p>
+              <p className=' left-0 absolute'>Master </p>
 
                 </div>
                 <div className=' grid grid-cols-2   ' > 
@@ -119,7 +119,7 @@ alt="My Image" />
                   <h1 className="flex justify-center items-center m-4   text-xl font-semibold bolder uppercase">study and EXPERIENCE</h1>
                   <div className='  relative lg:grid lg:grid-cols-2 sm:grid-cols-1 sm:-left-32'>
                                  {/**RIGHT */}
-               <div className=' w-2/3 mt-12  sm:w-full ml-28  '>
+               <div className=' w-2/3 mt-12  sm:w-full md:mb-28 ml-28  '>
                <span className="bg-teal-600 rounded-full p-2  absolute ml-16">2021 - 2023</span>
               <FaGraduationCap size={50} className='bg-teal-600 rounded-full p-2'/>
               <span className="after:w-1 after:h-[200px] relative after:absolute after:-mt-2 after:bg-teal-600 after:left-6"></span>
@@ -140,7 +140,7 @@ alt="My Image" />
 
 
                </div> 
-               <div className='w-2/3 mt-12  sm:w-full   ml-28 '>
+               <div className='w-2/3 mt-12  sm:w-full  md:mb-28  ml-28 '>
                <span className="bg-teal-600 rounded-full p-2  absolute ml-16">2018 - 2021</span>
               <FaGraduationCap size={50} className='bg-teal-600 rounded-full p-2'/>
               <span className="after:w-1 after:h-[200px] relative after:absolute after:-mt-2 after:bg-teal-600 after:left-6"></span>
@@ -151,7 +151,7 @@ alt="My Image" />
 
 
                </div> 
-               <div className='w-2/3 mt-12   sm:w-full    ml-28  '>
+               <div className='w-2/3 mt-12   sm:w-full md:mb-28   ml-28  '>
                <span className="bg-teal-600 rounded-full p-2 uppercase  absolute ml-16">project </span>
               <FaGraduationCap size={50} className='bg-teal-600 rounded-full p-2'/>
               <span className="after:w-1 after:h-[200px] relative after:absolute after:-mt-2 after:bg-teal-600 after:left-6"></span>
@@ -164,7 +164,7 @@ alt="My Image" />
 
                </div> 
                                  {/**LEFT */}
-               <div className='w-2/3 mt-12  sm:w-full  ml-28 '>
+               <div className='w-2/3 mt-12  sm:w-full sm:mb-24 md:mb-36 ml-28 '>
                <span className="bg-teal-600 rounded-full p-2  absolute ml-16"> 2015 - 2018</span>
               <FaGraduationCap size={50} className='bg-teal-600 rounded-full p-2'/>
               <span className="after:w-1 after:h-[200px] relative after:absolute after:-mt-2 after:bg-teal-600 after:left-6"></span>
@@ -207,7 +207,7 @@ alt="My Image" />
 
                 <div className='flex flex-row-2 space-x-2 sm:grid sm:grid-cols-1  md:grid md:grid-cols-3 sm:space-y-4 md:space-x-4   md:space-y-24 '>
                   {/** NEXTJS */}
-                <div className='w-2/5 h-40 border-2 cursor-pointer  border-white shadow-md shadow-white hover:opacity-90 hover:scale-105  mt-24 ml-4  sm:w-full  md:w-2/3' >
+                <div className='w-2/5 h-40 border-2 cursor-pointer border-white shadow-md shadow-white hover:opacity-90 hover:scale-105  mt-24 ml-4   sm:flex sm:items-center sm:justify-center  sm:w-full   md:w-fit' >
                 <Image
                 src="/images/Nextjs.jpg"
                 layout="responsive"
@@ -219,7 +219,7 @@ alt="My Image" />
                 </div>
                                   {/** LARAVEL*/}
 
-                <div className='w-2/5  h-40 border-2 cursor-pointer  border-white shadow-md shadow-white hover:opacity-60 hover:scale-105 sm:w-full md:w-2/3'>
+                <div className='w-2/5  h-40 border-2 cursor-pointer  border-white shadow-md shadow-white hover:opacity-60  md:w-fit hover:scale-105 sm:w-full '>
                 <Image
                src={'/images/laravel.png'}
                width={700}
@@ -232,7 +232,7 @@ alt="My Image" />
                 </div>
                                   {/** REACTJS */}
 
-                <div className='w-2/5 h-40 border-2 cursor-pointer  border-white shadow-md shadow-white hover:opacity-60 hover:scale-105 sm:w-full  md:w-2/3'>
+                <div className='w-2/5 h-40 border-2 cursor-pointer  border-white shadow-md shadow-white  md:w-fit hover:opacity-60 hover:scale-105 sm:w-full  '>
                 <Image
                 src={'/images/react_js.jpg'}
                 layout="responsive"
@@ -244,7 +244,7 @@ alt="My Image" />
                 </div>
                                   {/** JAVASCRIPT */}
 
-                <div className='w-2/5 h-40 border-2 cursor-pointer  border-white shadow-md shadow-white hover:opacity-60 hover:scale-105 sm:w-full  md:w-2/3'>
+                <div className='w-2/5 h-40 border-2 cursor-pointer  border-white shadow-md shadow-white hover:opacity-60 hover:scale-105 sm:w-full   md:w-fit'>
                 <Image
 src={'/images/js .png'}
 layout="responsive"
@@ -256,7 +256,7 @@ layout="responsive"
                 </div>
                                   {/** TYPESCRIPT */}
 
-                <div className='w-2/5 h-40 border-2 cursor-pointer  border-white shadow-md shadow-white  hover:opacity-60 hover:scale-105 sm:w-full  md:w-2/3'>
+                <div className='w-2/5 h-40 border-2 cursor-pointer  border-white shadow-md shadow-white  hover:opacity-60 hover:scale-105 sm:w-full   md:w-fit'>
                 <Image
 src={'/images/typescript.jpeg'}
 width={300}
@@ -269,7 +269,7 @@ layout="responsive"
                 </div>
                                   {/** TAILWIND */}
 
-                <div className='w-2/5 h-40 border-2 cursor-pointer  border-white shadow-md shadow-white hover:opacity-60 hover:scale-105 sm:w-full  md:w-2/3'>
+                <div className='w-2/5 h-40 border-2 cursor-pointer  border-white shadow-md shadow-white hover:opacity-60 hover:scale-105 sm:w-full   md:w-fit'>
                 <Image
                 src={'/images/tailwind.jpg'}
 
