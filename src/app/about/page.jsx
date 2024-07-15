@@ -45,7 +45,7 @@ alt="My Image" />
         </div>
                                                            {/** END OF HERO */}
 
-                                                           {/**PERSONAL STORY */}
+                                                           {/**PERSONAL JOURNEY */}
                {/**PERSONAL INFOS */}
               <div className='about md:grid md:grid-cols-1 '>
                 <div>
@@ -61,7 +61,7 @@ alt="My Image" />
                 {/** TABLE */}
                 <div className=' relative '>
                     
-                    <div className='expr absolute sm:left-0 sm:mt-56 md:mr-16 -right-96  h-60 w-64  -mt-48 border-white  border-2 bg-slate-700 shadow-lg shadow-white a'>
+                    <div className='expr absolute sm:left-0 sm:mt-56 -right-96  h-60 w-64  -mt-48 border-white  border-2 bg-slate-700 shadow-lg shadow-white a'>
                     <h1 className='relative     	 top-10  left-16  font-bold text-7xl'>2<span className='text-5xl text-teal-700  -mt-4'>+</span></h1>
                     <p className='relative  flex items-center justify-center text-ellipsis ml-4 uppercase top-10  l  mt-8 font-bold text-xl'> years in coding</p>
   
@@ -197,7 +197,10 @@ alt="My Image" />
               </div>
               {/** END OF STUDY AND EXPERIENCE */}
 
-                                                         {/** END OF PERSONAL STORY */}
+ 
+              {/** END OF STUDY AND EXPERIENCE */}
+
+                                                         {/** END OF PERSONAL JOURNEY */}
 
                                                          {/** SKILLS */}
               <div className='mt-12 '>
@@ -207,7 +210,7 @@ alt="My Image" />
 
                 <div className='flex flex-row-2 space-x-2 sm:grid sm:grid-cols-1  md:grid md:grid-cols-3 sm:space-y-4 md:space-x-4   md:space-y-24 '>
                   {/** NEXTJS */}
-                <div className='w-2/5 h-40 border-2 cursor-pointer border-white shadow-md shadow-white hover:opacity-90 hover:scale-105  mt-24 ml-4   sm:flex sm:items-center sm:justify-center  sm:w-full   md:w-fit' >
+                <div className='w-2/5 h-40 border-2 cursor-pointer  border-white shadow-md shadow-white hover:opacity-90 hover:scale-105  mt-24 ml-4  sm:w-full  md:w-2/3' >
                 <Image
                 src="/images/Nextjs.jpg"
                 layout="responsive"
@@ -219,7 +222,7 @@ alt="My Image" />
                 </div>
                                   {/** LARAVEL*/}
 
-                <div className='w-2/5  h-40 border-2 cursor-pointer  border-white shadow-md shadow-white hover:opacity-60  md:w-fit hover:scale-105 sm:w-full '>
+                <div className='w-2/5  h-40 border-2 cursor-pointer  border-white shadow-md shadow-white hover:opacity-60 hover:scale-105 sm:w-full md:w-2/3'>
                 <Image
                src={'/images/laravel.png'}
                width={700}
@@ -232,7 +235,7 @@ alt="My Image" />
                 </div>
                                   {/** REACTJS */}
 
-                <div className='w-2/5 h-40 border-2 cursor-pointer  border-white shadow-md shadow-white  md:w-fit hover:opacity-60 hover:scale-105 sm:w-full  '>
+                <div className='w-2/5 h-40 border-2 cursor-pointer  border-white shadow-md shadow-white hover:opacity-60 hover:scale-105 sm:w-full  md:w-2/3'>
                 <Image
                 src={'/images/react_js.jpg'}
                 layout="responsive"
@@ -244,7 +247,7 @@ alt="My Image" />
                 </div>
                                   {/** JAVASCRIPT */}
 
-                <div className='w-2/5 h-40 border-2 cursor-pointer  border-white shadow-md shadow-white hover:opacity-60 hover:scale-105 sm:w-full   md:w-fit'>
+                <div className='w-2/5 h-40 border-2 cursor-pointer  border-white shadow-md shadow-white hover:opacity-60 hover:scale-105 sm:w-full  md:w-2/3'>
                 <Image
 src={'/images/js .png'}
 layout="responsive"
@@ -256,7 +259,7 @@ layout="responsive"
                 </div>
                                   {/** TYPESCRIPT */}
 
-                <div className='w-2/5 h-40 border-2 cursor-pointer  border-white shadow-md shadow-white  hover:opacity-60 hover:scale-105 sm:w-full   md:w-fit'>
+                <div className='w-2/5 h-40 border-2 cursor-pointer  border-white shadow-md shadow-white  hover:opacity-60 hover:scale-105 sm:w-full  md:w-2/3'>
                 <Image
 src={'/images/typescript.jpeg'}
 width={300}
@@ -269,7 +272,7 @@ layout="responsive"
                 </div>
                                   {/** TAILWIND */}
 
-                <div className='w-2/5 h-40 border-2 cursor-pointer  border-white shadow-md shadow-white hover:opacity-60 hover:scale-105 sm:w-full   md:w-fit'>
+                <div className='w-2/5 h-40 border-2 cursor-pointer  border-white shadow-md shadow-white hover:opacity-60 hover:scale-105 sm:w-full  md:w-2/3'>
                 <Image
                 src={'/images/tailwind.jpg'}
 
