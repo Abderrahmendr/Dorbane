@@ -17,7 +17,7 @@ function page() {
         <span className=' -ml-48 after:top-56 relative after:w-1 after:h-[95rem] after:bg-teal-500 after:absolute sm:hidden'></span>
        
 </div>
-<div className=" flex items-center justify-center lg:ml-36  ">
+<div className=" flex items-center justify-center md:ml-36 lg:ml-36  ">
 <Navbar />
 
 </div>

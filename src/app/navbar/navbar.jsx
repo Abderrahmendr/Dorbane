@@ -11,7 +11,7 @@ import IconButton from "../home/iconButton"
 export const navbar = () => {
   return (
 <>
-  <div className = '   text-white  flex justify-center items-center md:ml-44 lg:-ml-8 lg:mb-10 md:mb-10  '>
+  <div className = '   text-white  flex justify-center items-center   lg:-ml-8 lg:mb-10 md:mb-10  '>
   <Link href="/home">
 
  <IconButton text = " Home "   className = " bg-teal-700 m-2  hover:shadow-md hover:shadow-white rounded-full  flex items-center justify-center p-2">
