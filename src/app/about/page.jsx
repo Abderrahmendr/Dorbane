@@ -75,7 +75,7 @@ alt="My Image" />
 <div className='  absolute right-32 '>
 
 <h2  className='opacity-60      -mr-20'>Date of Birth:</h2>
-              <p className=' absolute font-semibold '>22.05.200</p>
+              <p className=' absolute font-semibold '>22.05.2000</p>
 
 </div>
 
