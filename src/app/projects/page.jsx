@@ -47,7 +47,7 @@ className=' '
 
       <div className=' w-2/5 h-90 shadow-md shadow-white border-white border-2 ml-8 mt-56 hover:scale-110 sm:w-full sm:-ml-4 sm:h-50 md:-mr-10 md:mt-42 '>
 
-      <a href="https://weather-news-seven.vercel.app/" target="_blank">
+      <a href=" " target=" ">
 <Image
 src={'/images/deutschECke.png' }
 width={700}
@@ -66,7 +66,7 @@ alt=''
 
  <div className='ml-28 cursor-pointer sm:flex flex-row  sm:grid-cols-1 sm:grid sm:-ml-4 sm:h-60 sm:mb-32'>
 <div className=' w-2/5 h-50 shadow-md shadow-white border-white border-2 ml-8 mt-56 hover:scale-110 sm:w-full sm:-ml-4 sm:h-50 '>
-<a href='https://book-hub-navy.vercel.app/'  target='_blank'>
+<a href=' '  target=' '>
 <Image
 src={'/images/Kleidung.png'}
 width={700}
